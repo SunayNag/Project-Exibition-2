@@ -16,7 +16,6 @@ export default function Search() {
 
   const [loading, setLoading] = useState(false);
   const [listings, setListings] = useState([]);
-  console.log(listings);
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
