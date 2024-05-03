@@ -55,7 +55,7 @@ export default function Home() {
           place with ease
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-          Project Exibition 2 is the best place to find your next perfect place to
+          NexusNest is the best place to find your next perfect place to
           live.
           <br />
           We have a wide range of properties for you to choose from.
@@ -69,7 +69,7 @@ export default function Home() {
       </div>
 
       {/* swiper */}
-      <Swiper navigation>
+      {/* <Swiper navigation>
         {offerListings &&
           offerListings.length > 0 &&
           offerListings.map((listing) => (
@@ -84,7 +84,7 @@ export default function Home() {
               ></div>
             </SwiperSlide>
           ))}
-      </Swiper>
+      </Swiper> */}
 
       {/* listing results for offer, sale and rent */}
 
